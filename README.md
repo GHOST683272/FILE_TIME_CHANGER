@@ -88,6 +88,7 @@ All files and folders inside `Test` will have:
 ## ⚠️ Notes
 
 * Script modifies **all timestamps permanently**
+* This only changes the details in properties, to change it entirely one needs to manipulate the journal
 * Requires appropriate file system permissions
 * Works only on Windows due to PowerShell dependency
 * Date format must match:
